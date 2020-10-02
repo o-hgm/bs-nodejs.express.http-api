@@ -1,0 +1,31 @@
+{
+  "name": "nodejs.express.http-api",
+  "version": "1.0.0",
+  "description": "An example of express http api",
+  "main": "launch.js",
+  "scripts": {
+    "start": "node src/launch.js",
+    "start:dev": "nodemon src/launch.js",
+    "test": "jest --detectOpenHandles",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "express",
+    "http",
+    "api"
+  ],
+  "author": "Foo <foo@bar.xyz>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
